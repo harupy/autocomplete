@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "autocomplete",
+  "description": "autocomplete",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "js": ["js/content_script.js"],
+      "css": ["css/style.css"]
+    }
+  ],
+  "web_accessible_resources": ["js/main.js"]
+}
