@@ -2,6 +2,8 @@
 
 Enable autocomplete in the pull request comment editor on GitHub.
 
+![demo](https://user-images.githubusercontent.com/17039389/89125265-38f91200-d518-11ea-972b-5fccc9943c69.gif)
+
 ## Development
 
 | Command         | Action                 |
