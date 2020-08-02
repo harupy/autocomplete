@@ -7,7 +7,7 @@ import { createSearch, matchCommand, renderCommand, isPullRequestPage } from './
 
 (function () {
   const strategy = {
-    match: /^(j.*)/,
+    match: /^(c.*)/,
     search: async (
       term: string,
       callback: (searchResults: Command[]) => void,

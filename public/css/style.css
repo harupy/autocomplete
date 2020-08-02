@@ -5,17 +5,30 @@
   padding: 0;
   margin: 0;
 }
+
 .textcomplete-dropdown li {
   margin: 0;
 }
+
 .textcomplete-footer,
 .textcomplete-item {
   border-top: 1px solid #ddd;
 }
+
 .textcomplete-item {
   padding: 2px 5px;
   cursor: pointer;
+  vertical-align: middle;
 }
+
+.textcomplete-item small {
+  vertical-align: middle;
+}
+
+.textcomplete-item img {
+  vertical-align: middle;
+}
+
 .textcomplete-item:hover,
 .textcomplete-item.active {
   background-color: rgb(110, 183, 219);
