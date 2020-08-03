@@ -16,7 +16,7 @@ module.exports = {
   },
   rules: {
     'import/no-namespace': 'off',
-    'no-console': 'off',
+    'no-console': ['error', { allow: ['warn', 'error'] }],
     'object-shorthand': 'error',
     'prefer-destructuring': 'error',
     '@typescript-eslint/no-unused-vars': 'error',
