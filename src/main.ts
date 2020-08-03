@@ -6,7 +6,7 @@ import { COMMENT_EDITOR_ID } from './constants';
 import { commands } from './commands';
 import { createSearch, matchCommand, renderCommand, isPullRequestUrl } from './utils';
 
-(function () {
+(() => {
   const strategy = {
     match: /^(c.*)/,
     search: async (
