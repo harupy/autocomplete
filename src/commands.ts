@@ -1,5 +1,6 @@
 import { Command } from './types';
 
+// TODO: Is it possible to make commands configurable from the option page?
 export const commands: Command[] = [
   {
     body: 'command 1',
