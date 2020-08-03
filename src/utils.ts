@@ -1,8 +1,8 @@
 import { Command } from './types';
 
-export function isPullRequestPage(): boolean {
-  const prUrlPattern = /^https:\/\/github\.com\/[^/]+\/[^/]+\/pull\/\d+\/?/;
-  return prUrlPattern.test(window.location.href);
+export function isPullRequestUrl(url: string): boolean {
+  const prUrlPattern = /^https:\/\/github\.com\/[^/]+\/[^/]+\/pull\/\d+\/?$/;
+  return prUrlPattern.test(url);
 }
 
 export function createSearch<T>(

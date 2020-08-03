@@ -4,7 +4,7 @@ import { TextareaEditor } from '@textcomplete/textarea';
 import { Command } from './types';
 import { COMMENT_EDITOR_ID } from './constants';
 import { commands } from './commands';
-import { createSearch, matchCommand, renderCommand, isPullRequestPage } from './utils';
+import { createSearch, matchCommand, renderCommand, isPullRequestUrl } from './utils';
 
 (function () {
   const strategy = {
@@ -21,7 +21,7 @@ import { createSearch, matchCommand, renderCommand, isPullRequestPage } from './
     template: renderCommand,
   };
 
-  if (!isPullRequestPage()) {
+  if (!isPullRequestUrl(window.location.href)) {
     return;
   }
 
