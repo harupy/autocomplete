@@ -16,5 +16,5 @@
     "scripts": ["js/background.js"]
   },
   "web_accessible_resources": ["js/main.js"],
-  "permissions": ["*://github.com/*", "tabs", "webNavigation"]
+  "permissions": ["https://github.com/*", "tabs", "webNavigation"]
 }
